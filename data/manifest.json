@@ -1,0 +1,26 @@
+{
+  "dataset": "Cora",
+  "nodes": 2708,
+  "features": 384,
+  "classes": 7,
+  "budget": 350,
+  "validation_size": 500,
+  "seeds": [
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369
+  ],
+  "source_graph_sha256": "80bf9563cf56f1d9c0b2456331760ab52f3b45f113b2d7f62b20a3ac5b521b6d",
+  "source_cache_sha256": "b8ef167051607dd5f61ab4661aa4f63f80a851055f4bd7c5e73bbab0fc710dc1",
+  "files": {
+    "cora.npz": "4c3aa0e4773e34b8b88d71bbc20586d24e72839cf000b49259e50ff889c32735",
+    "splits.json": "64ba5d458f1e8af06dd85f72ac91bed0cd32f7ab1ee11f3d5aacb87a10603930"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "seeds": [
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369
+  ],
+  "epochs": 200,
+  "groups": {
+    "GCN": {
+      "Base": [
+        "ce"
+      ],
+      "LENS": [
+        "recipe:sf=0.25:dg=0:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=1:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=2:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=4:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=0:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=1:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=2:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=4:dmode=5:aw=1:qw=1:cbp=0:lp=0"
+      ],
+      "ST": [
+        "recipe:st=1:aw=1:qw=1",
+        "recipe:st=3:aw=1:qw=1"
+      ],
+      "ST+LENS": [
+        "recipe:st=1:sf=0.25:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=4:dmode=5:aw=1:qw=1"
+      ]
+    },
+    "SAGE": {
+      "Base": [
+        "ce"
+      ],
+      "LENS": [
+        "recipe:sf=0.25:dg=0:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=1:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=2:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=4:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=0:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=1:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=2:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=4:dmode=5:aw=1:qw=1:cbp=0:lp=0"
+      ],
+      "ST": [
+        "recipe:st=1:aw=1:qw=1",
+        "recipe:st=3:aw=1:qw=1"
+      ],
+      "ST+LENS": [
+        "recipe:st=1:sf=0.25:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=4:dmode=5:aw=1:qw=1"
+      ]
+    },
+    "GAT": {
+      "Base": [
+        "ce"
+      ],
+      "LENS": [
+        "recipe:sf=0.25:dg=0:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=1:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=2:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.25:dg=4:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=0:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=1:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=2:dmode=5:aw=1:qw=1:cbp=0:lp=0",
+        "recipe:sf=0.5:dg=4:dmode=5:aw=1:qw=1:cbp=0:lp=0"
+      ],
+      "ST": [
+        "recipe:st=1:aw=1:qw=1",
+        "recipe:st=3:aw=1:qw=1"
+      ],
+      "ST+LENS": [
+        "recipe:st=1:sf=0.25:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.25:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=1:sf=0.5:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.25:dg=4:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=0:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=1:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=2:dmode=5:aw=1:qw=1",
+        "recipe:st=3:sf=0.5:dg=4:dmode=5:aw=1:qw=1"
+      ]
+    },
+    "robust": {
+      "GCE": [
+        "plug:base=0:sf=-1"
+      ],
+      "GCE+LENS": [
+        "plug:base=0:sf=0.25:dg=0",
+        "plug:base=0:sf=0.25:dg=1",
+        "plug:base=0:sf=0.25:dg=2",
+        "plug:base=0:sf=0.25:dg=4",
+        "plug:base=0:sf=0.5:dg=0",
+        "plug:base=0:sf=0.5:dg=1",
+        "plug:base=0:sf=0.5:dg=2",
+        "plug:base=0:sf=0.5:dg=4"
+      ],
+      "SCE": [
+        "plug:base=1:sf=-1"
+      ],
+      "SCE+LENS": [
+        "plug:base=1:sf=0.25:dg=0",
+        "plug:base=1:sf=0.25:dg=1",
+        "plug:base=1:sf=0.25:dg=2",
+        "plug:base=1:sf=0.25:dg=4",
+        "plug:base=1:sf=0.5:dg=0",
+        "plug:base=1:sf=0.5:dg=1",
+        "plug:base=1:sf=0.5:dg=2",
+        "plug:base=1:sf=0.5:dg=4"
+      ],
+      "ELR": [
+        "plug:base=2:sf=-1"
+      ],
+      "ELR+LENS": [
+        "plug:base=2:sf=0.25:dg=0",
+        "plug:base=2:sf=0.25:dg=1",
+        "plug:base=2:sf=0.25:dg=2",
+        "plug:base=2:sf=0.25:dg=4",
+        "plug:base=2:sf=0.5:dg=0",
+        "plug:base=2:sf=0.5:dg=1",
+        "plug:base=2:sf=0.5:dg=2",
+        "plug:base=2:sf=0.5:dg=4"
+      ]
+    }
+  },
+  "selection": "Maximum validation accuracy per seed; ties use first candidate in listed order."
+}
